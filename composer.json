@@ -9,6 +9,11 @@
             "email": "juliancorredors99@outlook.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "./App"
+        }
+    },
     "minimum-stability": "stable",
     "require": {}
 }
