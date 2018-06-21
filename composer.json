@@ -1,0 +1,14 @@
+{
+    "name": "julian/proyecto-jerre-jerre",
+    "description": "Proyecto asignado por JerreJerre",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JulianH99",
+            "email": "juliancorredors99@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
