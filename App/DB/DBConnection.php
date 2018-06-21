@@ -2,7 +2,13 @@
 
 namespace App\DB;
 
-
+/**
+ * Provee una interfaz para la conexion con la base de datos a partir de las configuraciones
+ * en el archivo Kernel.php
+ *
+ * @version 1.0.0
+ * @package App\DB
+ */
 class DBConnection extends \PDO {
 
     private $dbConfig;

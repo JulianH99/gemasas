@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <?php include(__DIR__ . '/includes/head.php'); ?>
-</head>
+<?php include(__DIR__ . '/includes/head.php'); ?>
+
 <body>
 
 <main class="main">

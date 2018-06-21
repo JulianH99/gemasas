@@ -7,6 +7,7 @@ namespace App\Utils;
  * por medio de la sesion a estas
  * 
  * @version 1.0.0
+ * @package App\Utils
  */
 class View {
 

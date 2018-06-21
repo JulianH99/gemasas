@@ -4,6 +4,12 @@ namespace App\Controllers;
 
 use App\Models\User;
 
+/**
+ * Controlador principal de la aplicacion. Maneja todos los eventos de esta
+ *
+ * @version 1.0.0
+ * @package App\Controllers
+ */
 class IndexController extends BaseController {
 
     public function index() {

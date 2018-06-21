@@ -10,6 +10,7 @@ use App\Utils\View;
  * basicas que estos pueden usar dentro de su flujo de trabajo
  * 
  * @version 1.0
+ * @package App\Controllers
  */
 class BaseController {
 

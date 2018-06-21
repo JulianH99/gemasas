@@ -7,6 +7,7 @@ namespace App;
  * Inicializa la aplicacion, definiendo la configuracion e incluyendo el dispatcher de la aplicacion
  *
  * @package App
+ * @version 1.0.0
  */
 class Kernel {
 

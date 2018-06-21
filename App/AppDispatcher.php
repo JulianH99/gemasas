@@ -7,6 +7,9 @@ use App\Controllers\IndexController;
 
 /**
  * Se encarga de redireccionar segun el controllador y el metodo elegido
+ *
+ * @version 1.0.0
+ * @package App
  */
 class AppDispatcher implements Dispatcher {
 
@@ -17,6 +20,12 @@ class AppDispatcher implements Dispatcher {
     }
 
 
+    /**
+     *
+     * @see \App\Dispatcher::dispatch()
+     * @return \Exception|mixed|void
+     * @throws \Exception
+     */
     public function dispatch() {
 
         $controller = isset($_REQUEST['c']) ? $_REQUEST['c'] : '';
